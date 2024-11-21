@@ -1,0 +1,265 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    min-height: 100vh;
+}
+header {
+    background-color:  #494d68; 
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav {
+    background-color: #76799c;
+    display: flex;
+    justify-content: center; /* Centra el menú */
+}
+.menu {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    padding: 15px 20px;
+    cursor: pointer;
+    color: white;
+}
+
+/*----------*/
+
+.Acerca{
+    color: white;
+}
+
+.Acerca:hover {
+    background-color:#e6e6e6 ;
+    color: #000;
+}
+
+/*----------*/
+.Acerca2{
+    background-color: #e6e6e6 ;
+}
+
+.Acerca2 > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.Acerca2:hover {
+    background-color:#e6e6e6 ;
+    color: #000;
+}
+
+
+.Acerca2 > a:hover {
+    background-color:#e6e6e6 ;
+    color: #000;
+}
+
+/*----------*/
+
+.Autor >a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Autor:hover {
+    background-color:#e6e6e6 ;
+    color: #000;
+}
+
+.Autor>a:hover{
+    background-color:#e6e6e6 ;
+    color: #000;
+}
+
+/*----------*/
+
+.Resumen > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Resumen:hover {
+    background-color:#e6e6e6 ;
+    color: #000;
+}
+
+.Resumen > a:hover{
+    background-color:#e6e6e6 ;
+    color: #000;
+}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #76799c;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 150px;
+}
+.submenu li {
+    padding: 10px 15px;
+    color: white;
+}
+.submenu li:hover {
+    background-color: #76799c;
+}
+
+.web-link-styles{
+    text-decoration: none;
+    color: white;
+}
+
+.web-link-styles:hover{
+    color: black;
+}
+
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+
+
+main {
+    text-align: center;
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #e6e6e6;
+    padding: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    align-items: center;
+
+}
+
+main{
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 3px solid #000000;
+
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
+
+}
+p {
+    text-align: justify;
+    color: #555;
+    
+}
+
+/* Estilos de la sección del perfil */
+.perfil {
+    background-color: #fccd87;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.perfil h2 {
+    text-align: center;
+    color: #000000;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+
+
+.perfil .foto {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.perfil .foto img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #8b2d2d;
+}
+.perfil p {
+    text-align: justify;
+    color: #000000;
+}
+
+.txt{
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #494d68;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 4.5rem;
+}
+
+/* Estilo de las imágenes */
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    margin: 20px;
+    justify-items: center;
+}
+.collage img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.collage img:hover {
+    transform: scale(1.05);
+}
+.description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Para centrar las imágenes en la página 1 */
+#img1, #img2 {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+h1, h2, h3, header h1 {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.titulo{
+    text-align: left;
+    font-size: 19px;
+}
